@@ -3387,7 +3387,6 @@ GameObject:
   - component: {fileID: 397817684}
   - component: {fileID: 397817683}
   - component: {fileID: 397817681}
-  - component: {fileID: 397817686}
   - component: {fileID: 397817680}
   m_Layer: 0
   m_Name: Cube (2)
@@ -3419,10 +3418,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 397817678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &397817681
 Rigidbody:
@@ -3502,18 +3502,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397817678}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &397817686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397817678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &419653741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,9 +3927,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 467449242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVR: 0
+  isCenter: 1
+  SnapCube: {fileID: 1815735394}
 --- !u!65 &467449244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4538,7 +4529,6 @@ GameObject:
   - component: {fileID: 588494967}
   - component: {fileID: 588494966}
   - component: {fileID: 588494964}
-  - component: {fileID: 588494969}
   - component: {fileID: 588494963}
   m_Layer: 0
   m_Name: Cube (6)
@@ -4570,10 +4560,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 588494961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &588494964
 Rigidbody:
@@ -4653,18 +4644,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588494961}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &588494969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 588494961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &592888806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7082,7 +7061,6 @@ GameObject:
   - component: {fileID: 880843955}
   - component: {fileID: 880843954}
   - component: {fileID: 880843952}
-  - component: {fileID: 880843957}
   - component: {fileID: 880843951}
   m_Layer: 0
   m_Name: Cube (5)
@@ -7114,10 +7092,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 880843949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &880843952
 Rigidbody:
@@ -7197,18 +7176,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880843949}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &880843957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880843949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &893606607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8393,7 +8360,6 @@ GameObject:
   - component: {fileID: 1073056545}
   - component: {fileID: 1073056544}
   - component: {fileID: 1073056542}
-  - component: {fileID: 1073056548}
   - component: {fileID: 1073056541}
   m_Layer: 0
   m_Name: Cube (1)
@@ -8411,10 +8377,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1073056540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &1073056542
 Rigidbody:
@@ -8508,18 +8475,6 @@ Transform:
   m_Father: {fileID: 467449247}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1073056548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073056540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1102627518
 GameObject:
   m_ObjectHideFlags: 0
@@ -8533,7 +8488,6 @@ GameObject:
   - component: {fileID: 1102627524}
   - component: {fileID: 1102627523}
   - component: {fileID: 1102627521}
-  - component: {fileID: 1102627526}
   - component: {fileID: 1102627520}
   m_Layer: 0
   m_Name: Cube (4)
@@ -8565,10 +8519,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102627518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &1102627521
 Rigidbody:
@@ -8648,18 +8603,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102627518}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1102627526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102627518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1129465935
 GameObject:
   m_ObjectHideFlags: 0
@@ -12894,7 +12837,6 @@ GameObject:
   - component: {fileID: 1742261202}
   - component: {fileID: 1742261201}
   - component: {fileID: 1742261199}
-  - component: {fileID: 1742261204}
   - component: {fileID: 1742261198}
   m_Layer: 0
   m_Name: Cube (3)
@@ -12926,10 +12868,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742261196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902e5d8ba00094a5999910c11c2b7e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 114814df7563a4738a5d46d42c5ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVR: 0
+  isCenter: 0
   SnapCube: {fileID: 1815735394}
 --- !u!54 &1742261199
 Rigidbody:
@@ -13009,18 +12952,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742261196}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1742261204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742261196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d5df2146dd84768b1132797089fa41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1742898801
 GameObject:
   m_ObjectHideFlags: 0
