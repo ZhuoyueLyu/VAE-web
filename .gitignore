@@ -39,3 +39,6 @@ sysinfo.txt
 
 WebGL Builds/*
 VAE-v2.0/*
+
+*/.DS_Store
+.DS_Store
