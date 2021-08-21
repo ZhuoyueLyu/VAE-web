@@ -42,3 +42,5 @@ VAE-v2.0/*
 
 */.DS_Store
 .DS_Store
+
+# to remove the ds_store:   git rm --cached .DS_Store
