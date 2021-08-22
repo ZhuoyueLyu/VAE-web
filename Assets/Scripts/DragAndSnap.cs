@@ -33,24 +33,26 @@ public class DragAndSnap : MonoBehaviour
         localTransform.localRotation = Quaternion.identity;
     }
 
-
     void OnMouseUp() {
-        if (!isCenter) { 
-            isGrabbed = false;
-            SnapCube.gameObject.SetActive(false);
-            SnapToGrid(transform); // move the real cube on not grab
+        if (SwitchBackground.isEncoderMode) { // only allow moving cubes if it's encoder mode
+            if (!isCenter) { 
+                isGrabbed = false;
+                SnapCube.gameObject.SetActive(false);
+                SnapToGrid(transform); // move the real cube on not grab
+            }
         }
     }
 
 	void OnMouseDown() {
-		mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-		// Store offset = gameobject world pos - mouse world pos
-		mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
-        if (!isCenter) {
-            SnapCube.gameObject.SetActive(true);
-		    isGrabbed = true;
+        if (SwitchBackground.isEncoderMode) { // only allow moving cubes if it's encoder mode
+            mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
+            // Store offset = gameobject world pos - mouse world pos
+            mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
+            if (!isCenter) {
+                SnapCube.gameObject.SetActive(true);
+                isGrabbed = true;
+            }            
         }
-        
 	}
 
 	private Vector3 GetMouseAsWorldPoint() {
@@ -63,8 +65,9 @@ public class DragAndSnap : MonoBehaviour
 	}
 
 	void OnMouseDrag() {
-		this.transform.position = GetMouseAsWorldPoint() + mOffset;
-
+        if (SwitchBackground.isEncoderMode) { // only allow moving cubes if it's encoder mode
+		    this.transform.position = GetMouseAsWorldPoint() + mOffset;
+        }
 	}
 
 void Update() { // !!! DON'T USE FixedUpdate() for SnapToGrid()!!! Wasted 10 hours on this
