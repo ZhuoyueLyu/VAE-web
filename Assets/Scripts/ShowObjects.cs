@@ -21,7 +21,7 @@ public class ShowObjects : MonoBehaviour
     }
     private void Update() {
         bool XisPressed = false;
-        bool YisPressed = false;
+        // bool YisPressed = false;
         if (isVR) { 
             // active the next shadow when both buttons pressed
 
@@ -29,10 +29,9 @@ public class ShowObjects : MonoBehaviour
             // XisPressed = OVRInput.Get(OVRInput.Button.Three); // get() is on all frames
             // YisPressed = OVRInput.GetDown(OVRInput.Button.Four); // getDown() is only on that exact frame
         } else { 
-            XisPressed = Input.GetKey("a");
-            YisPressed = Input.GetKeyDown("d");
+            XisPressed = Input.GetKeyDown("e");
         }
-        if (XisPressed && YisPressed && activeCount < transform.childCount) {
+        if (XisPressed && activeCount < transform.childCount) {
             transform.GetChild(activeCount).gameObject.SetActive(true);
             activeCount += 1;
         }

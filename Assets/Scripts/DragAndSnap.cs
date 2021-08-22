@@ -44,7 +44,7 @@ public class DragAndSnap : MonoBehaviour
     }
 
 	void OnMouseDown() {
-        if (SwitchBackground.isEncoderMode) { // only allow moving cubes if it's encoder mode
+        if (SwitchBackground.isEncoderMode || isCenter) { // only allow moving cubes if it's encoder mode
             mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
             // Store offset = gameobject world pos - mouse world pos
             mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
@@ -65,7 +65,7 @@ public class DragAndSnap : MonoBehaviour
 	}
 
 	void OnMouseDrag() {
-        if (SwitchBackground.isEncoderMode) { // only allow moving cubes if it's encoder mode
+        if (SwitchBackground.isEncoderMode || isCenter) { // only allow moving cubes if it's encoder mode
 		    this.transform.position = GetMouseAsWorldPoint() + mOffset;
         }
 	}

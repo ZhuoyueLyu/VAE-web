@@ -39,6 +39,15 @@ public class GameController : MonoBehaviour
             duplicate.transform.parent = thatChild;
             duplicate.transform.localPosition = new Vector3(0, 0, 0);
             outputIndex += 1;
+        } else if (Input.GetKeyDown("e")) { // destroy outputs if the user try to move the objects (in encoder mode)
+            outputIndex = 0;
+            for (int i = 0; i < Outputs.childCount; i++) {
+                Transform thatChild = Outputs.GetChild(i);
+                foreach (Transform child in thatChild) {
+                    // remove all previous attached children
+                    GameObject.Destroy(child.gameObject);
+                }
+            }
         }
     }
 }
