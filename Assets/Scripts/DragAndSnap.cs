@@ -8,7 +8,7 @@ public class DragAndSnap : MonoBehaviour
    	public bool isVR;
     public bool isCenter;
 	public Transform SnapCube;
-	bool isGrabbed = false;
+	public bool isGrabbed = false;
     Vector3 mOffset;
 	float mZCoord;
 

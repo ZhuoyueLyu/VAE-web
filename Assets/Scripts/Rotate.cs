@@ -21,6 +21,7 @@ public class Rotate : MonoBehaviour
         } else { 
             if (Input.GetKey("up"))
             {
+                // Debug.Log("up is pressed");
                 v1 = 1;
             } else if (Input.GetKey("down"))
             {
