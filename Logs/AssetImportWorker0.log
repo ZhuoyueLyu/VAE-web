@@ -496,3 +496,371 @@ System memory in use after: 143.1 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
 Total: 2.267187 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.053007 ms MarkObjects: 1.897205 ms  DeleteObjects: 0.020521 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 2.510400 ms (FindLiveObjects: 0.338454 ms CreateObjectMapping: 0.171541 ms MarkObjects: 1.963040 ms  DeleteObjects: 0.035793 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.4 MB.
+System memory in use after: 143.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 4.133262 ms (FindLiveObjects: 0.248713 ms CreateObjectMapping: 0.061823 ms MarkObjects: 3.797602 ms  DeleteObjects: 0.022532 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.6 MB.
+System memory in use after: 143.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 4.643016 ms (FindLiveObjects: 0.441854 ms CreateObjectMapping: 0.128477 ms MarkObjects: 4.010493 ms  DeleteObjects: 0.058248 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 143.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 2.372379 ms (FindLiveObjects: 0.237832 ms CreateObjectMapping: 0.054345 ms MarkObjects: 2.059650 ms  DeleteObjects: 0.018543 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12055.922917 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(a18d6b918714b4c6ca29ae74bed480be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(a18d6b918714b4c6ca29ae74bed480be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2d5db91c9cd9643b18732e57c2bdb7') in 0.078641 seconds
+  Import took 0.134802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.454844 seconds.
+  path: Assets/Fonts/Chainbox.otf
+  artifactKey: Guid(8602fc9f1b22e47fdaa2826ad2017f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Chainbox.otf using Guid(8602fc9f1b22e47fdaa2826ad2017f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3980a44b83c1cb688622206c3175bc97') in 1.217102 seconds
+  Import took 1.222792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.646358 seconds.
+  path: Assets/Fonts/Chainbox SDF.asset
+  artifactKey: Guid(5f2d5f69bbb0d461fbdea550165d77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Chainbox SDF.asset using Guid(5f2d5f69bbb0d461fbdea550165d77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: 'dbdae26b35382859700c57441a736ec3') in 0.564243 seconds
+  Import took 0.570113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.348247 seconds.
+  path: Assets/Fonts/Pixel.ttf
+  artifactKey: Guid(fae0976c03d354a77ad37d9cbb9d697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pixel.ttf using Guid(fae0976c03d354a77ad37d9cbb9d697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3f82898c74fd4e0ad93c6ee746fe30') in 0.511487 seconds
+  Import took 0.541599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.132570 seconds.
+  path: Assets/Fonts/Pixel SDF.asset
+  artifactKey: Guid(e5fbee44bd47e45e0b692681957a17b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pixel SDF.asset using Guid(e5fbee44bd47e45e0b692681957a17b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '9f2356b0a10297d155e1c161187a25b5') in 0.027904 seconds
+  Import took 0.036563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.389443 seconds.
+  path: Assets/Fonts/BULKYPIX.TTF
+  artifactKey: Guid(cf688ae49ac5641d88b5cee80808ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BULKYPIX.TTF using Guid(cf688ae49ac5641d88b5cee80808ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d378218e6e47fb2e96dbf62f0897ade') in 0.700708 seconds
+  Import took 0.704861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.024928 seconds.
+  path: Assets/Fonts/BULKYPIX SDF.asset
+  artifactKey: Guid(92d4ef07d77fc4b688369e0203294ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BULKYPIX SDF.asset using Guid(92d4ef07d77fc4b688369e0203294ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '3f10c24dd76bc94c9e90dbc245050e7c') in 0.011651 seconds
+  Import took 0.016194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.654634 seconds.
+  path: Assets/BULKYPIX.TTF
+  artifactKey: Guid(f07d6ec659a784bf59d05503742b775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BULKYPIX.TTF using Guid(f07d6ec659a784bf59d05503742b775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a32093837b50d8d60cd66651b499af') in 0.027228 seconds
+  Import took 0.032068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001464 seconds.
+  path: Assets/BULKYPIX.TTF
+  artifactKey: Guid(f07d6ec659a784bf59d05503742b775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BULKYPIX.TTF using Guid(f07d6ec659a784bf59d05503742b775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a32093837b50d8d60cd66651b499af') in 0.042552 seconds
+  Import took 0.048999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.358646 seconds.
+  path: Assets/Fonts/Knotty.ttf
+  artifactKey: Guid(d500a736093244ef0871322f7bd33b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Knotty.ttf using Guid(d500a736093244ef0871322f7bd33b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5c85b3bc9b09ee4135f6eeec1f8429') in 0.068603 seconds
+  Import took 0.074396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.539064 seconds.
+  path: Assets/Fonts/Knotty SDF.asset
+  artifactKey: Guid(afe8783189b23402da1649f385dd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Knotty SDF.asset using Guid(afe8783189b23402da1649f385dd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '2c79aeded71085287c5b17eff2771fb0') in 0.023626 seconds
+  Import took 0.028330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/Fonts/Knotty SDF.asset
+  artifactKey: Guid(afe8783189b23402da1649f385dd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Knotty SDF.asset using Guid(afe8783189b23402da1649f385dd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '2c79aeded71085287c5b17eff2771fb0') in 0.012893 seconds
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.181600 seconds.
+  path: Assets/Fonts/ShareTech-Regular.ttf
+  artifactKey: Guid(836811755a7db43df95602f557d4d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ShareTech-Regular.ttf using Guid(836811755a7db43df95602f557d4d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac680576762275cf2b72d35ccd039b1') in 0.048564 seconds
+  Import took 0.086726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.091101 seconds.
+  path: Assets/Fonts/ShareTech-Regular SDF.asset
+  artifactKey: Guid(2b5cdffd597e74058a80283800c3a967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ShareTech-Regular SDF.asset using Guid(2b5cdffd597e74058a80283800c3a967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '4285423768b8b5c91b87163c6dd44b6d') in 0.024715 seconds
+  Import took 0.028506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/Fonts/ShareTech-Regular SDF.asset
+  artifactKey: Guid(2b5cdffd597e74058a80283800c3a967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ShareTech-Regular SDF.asset using Guid(2b5cdffd597e74058a80283800c3a967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:570 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in /Users/zhuoyuelyu/Documents/VAE-web/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs:537 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_FontAsset.cs Line: 570)
+
+ -> (artifact id: '4285423768b8b5c91b87163c6dd44b6d') in 0.007976 seconds
+  Import took 0.012592 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.6 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 12.658936 ms (FindLiveObjects: 0.311701 ms CreateObjectMapping: 0.071749 ms MarkObjects: 8.468323 ms  DeleteObjects: 0.057513 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.9 MB.
+System memory in use after: 161.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 3.828461 ms (FindLiveObjects: 0.581670 ms CreateObjectMapping: 0.148377 ms MarkObjects: 3.053834 ms  DeleteObjects: 0.043103 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 162.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 6.110663 ms (FindLiveObjects: 0.474767 ms CreateObjectMapping: 0.188076 ms MarkObjects: 5.333268 ms  DeleteObjects: 0.108997 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.2 MB.
+System memory in use after: 162.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 4.378104 ms (FindLiveObjects: 0.410681 ms CreateObjectMapping: 0.153836 ms MarkObjects: 3.780124 ms  DeleteObjects: 0.030169 ms)
+
