@@ -8,7 +8,10 @@ public class SwitchBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e")) {
+        if (Input.GetKeyDown("e") || Input.GetKeyDown("n") ) {
+            if (Input.GetKeyDown("n") && MainGameController.gameIndex == 1) {
+                return; // do nothing if the user is in hard mode.
+            }
             isEncoderMode = true;
             transform.GetChild(0).gameObject.SetActive(true);
             transform.GetChild(1).gameObject.SetActive(false);
