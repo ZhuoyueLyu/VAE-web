@@ -7,7 +7,7 @@ public class CollideWithBox : MonoBehaviour
     public Material red;
     public Material green;
 
-    bool isRed = false;
+    public static bool isRed = false;
     void ChangeMaterial(Material m) {
         foreach (Transform child in transform) {
             child.gameObject.GetComponent<MeshRenderer> ().material = m;
@@ -23,8 +23,6 @@ public class CollideWithBox : MonoBehaviour
     }
     else {
         foreach (Collider collidedBox in intersecting) {
-            Debug.Log("here");
-            Debug.Log(collidedBox.gameObject.name);
             if (!collidedBox.gameObject.GetComponent<DragAndSnap>().isGrabbed) {
                 return true;
             }

@@ -10,6 +10,8 @@ public class DragAndSnap : MonoBehaviour
 	public Transform SnapCube;
 	public bool isGrabbed = false;
     Vector3 mOffset;
+
+    Vector3 localOldPos;
 	float mZCoord;
 
     void OnDrawGizmos() {
@@ -38,7 +40,11 @@ public class DragAndSnap : MonoBehaviour
             if (!isCenter) { 
                 isGrabbed = false;
                 SnapCube.gameObject.SetActive(false);
-                SnapToGrid(transform); // move the real cube on not grab
+                if (CollideWithBox.isRed) { // if the target postion already has a box
+                    transform.localPosition = localOldPos;
+                } else {
+                    SnapToGrid(transform); // move the real cube on not grab
+                }
             }
         }
     }
@@ -49,6 +55,7 @@ public class DragAndSnap : MonoBehaviour
             // Store offset = gameobject world pos - mouse world pos
             mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
             if (!isCenter) {
+                localOldPos = transform.localPosition;
                 SnapCube.gameObject.SetActive(true);
                 isGrabbed = true;
             }            
